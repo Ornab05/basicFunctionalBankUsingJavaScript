@@ -28,7 +28,7 @@ document.getElementById('btn-withdraw').addEventListener('click', function(){
     main_total_value.innerText= new_total_value;
 
     if (mainWithdraw_two> new_total_value){
-        alert("You have less money in your account, bitch.")
+        alert("You have less money in your account, Sir")
         withdraw_field.value=''
     }
     
