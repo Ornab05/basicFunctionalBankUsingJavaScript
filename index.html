@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Again Started</title>
+    <link rel="icon" href="https://play-lh.googleusercontent.com/wmDCaLQC6nS-659kynvmD7P-T9e9KMIgfUAMn5TG4i1ERNp5fa7yg0Tz0MBsIrX9cgM=w600-h300-pc0xffffff-pd" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-3xl text-center mt-4">My New Journey To <span class="text-4xl font-semibold italic text-red-500 mt-5">The Web development</span></h1>
+    <main>
+           <section class="mt-4">
+            <div class="grid grid-cols-3 mx-auto w-3/4 gap-4">
+                <div class="bg-red-700 p-8">
+                    <h1 class="text-2xl text-stone-800 text-semibold">Deposit</h1>
+                    <h2 class="text-4xl">$ <span class="text-red-400" id="deposit-total">00</span></h2>
+                </div>
+                <div class="bg-green-400 p-8">
+                    <h1 class="text-2xl text-stone-800 text-semibold">Withdraw</h1>
+                    <h2 class="text-4xl">$ <span class="text-red-400" id="withdraw-total">00</span></h2>
+                </div>
+                <div class="bg-lime-600 p-8">
+                    <h1 class="text-2xl text-stone-800 text-semibold">Total</h1>
+                    <h2 class="text-4xl">$ <span class="text-red-400" id="main-total">00</span></h2>
+                </div>
+            </div>
+           </section>
+
+           <!-- Deposit and withdraw section -->
+
+           <section class="mt-12">
+            <div class=" grid grid-cols-2 w-3/4 gap-4 mx-auto">
+                <div class="bg-teal-300 p-8">
+                       <h1 class="text-4xl text-bold">Withdraw</h1>
+                       <br>
+                       <input id="withdraw-input" class="w-10/12 ml-8" type="text" placeholder="Write your withdraw amount here">
+                       <br>
+                       <br>
+                       <button class="hover:bg-green-400 bg-emerald-500 font-bold text-xl p-2 ml-8 text-white rounded " id="btn-withdraw">Withdraw</button>
+                </div>
+                <div class="bg-sky-400 p-8">
+                    <h1 class="text-4xl text-bold">Deposit</h1>
+                    <br>
+                    <input id="deposit-input" class="w-10/12 ml-8" type="text" placeholder="Write your Deposit amount here">
+                    <br>
+                    <br>
+                    <button class="hover:bg-green-400 bg-orange-400 font-bold text-white p-2 text-xl ml-8 rounded" id="btn-deposit">deposit</button>
+                </div>
+            </div>
+           </section>
+
+
+
+
+
+
+    </main>
+    <script src="deposit.js"></script>
+    <script src="withdraw.js"></script>
+    <script src=""></script>
+</body>
+</html>
